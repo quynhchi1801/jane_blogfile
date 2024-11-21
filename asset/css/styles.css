@@ -59,7 +59,7 @@ body main header #navigation_bar ul li a img{
 body main header #tittle {
     width: 100%;
     height:222px;
-    background-color:cyan;
+    background-color:white;
     font-size: 15px;
     font-family: "Open Sans";
     padding: 48px 16px;
@@ -111,10 +111,10 @@ body main header #header_img_text h1 {
     font-size:36px;
     margin:10px 0px;
 }
-body main header #header_img_text b {
-    width: 100%; 
+body main header #header_img_text h2 {
+    width: 394px; 
     height:94px;
-    font-size:54px;
+    font-size:50px;
 }
 body main header #header_img_text button{
     width: 124px;
@@ -124,3 +124,98 @@ body main header #header_img_text button{
     display:block;
 }
 /* End CSS header */
+/* Start CSS heading1 */
+body main #content #heading #heading1{
+    width: 961px;
+    height:1182px;
+    font-size: 15px;
+    margin:16px;
+    padding:12px 24px;
+    background-color: aqua;
+}
+body main #content #heading #heading1 h3{
+    width:100%;
+    height:36px;
+    font-size:24px;
+    margin:10px 0px;
+    text-align: center;
+}
+body main #content #heading #heading1 h5{
+    width:100%;
+    height:27px;
+    font-size:18px;
+    margin:10px 0px;
+    text-align: center;
+}
+body main #content #heading #heading1 h5 span{
+    color:rgba(63, 54, 44, 0.5);
+}
+body main #content #heading #heading1 #heading1_img1 {
+    width:100%;
+    height:621px;
+    padding:16px 0px;
+}
+body main #content #heading #heading1 #heading1_paragrap1 {
+    width:100%;
+    height:113px;
+    font-size:18px;
+    margin:15px 0px;
+}
+body main #content #heading #heading1 #heading1_paragrap2 {
+    width:100%;
+    height:68px;
+    font-size:18px;
+    margin:15px 0px;
+    position:relative;
+} 
+body main #content #heading #heading1 #heading1_button {
+    width: 100%;
+    margin: 35px 0px;
+}
+body main #content #heading #heading1 #heading1_button #like_button{
+    width: 79px;
+    height: 40px;
+    padding: 8px 16px;
+    border: solid 0.8px black;
+    display:flex;
+    position:absolute;
+    top:-50px;
+    margin:0px 0px 35px 0px;
+}
+body main #content #heading #heading1 #heading1_button #like_button img {
+    width:15px;
+    height:18px;
+    display:block;
+}
+body main #content #heading #heading1 #heading1_button #like_button p {
+    font-size: 18px;
+    display:block;
+}
+body main #content #heading #heading1 #heading1_button #replies_button {
+    width:118px;
+    height:39px;
+    padding:8px 16px;
+    display:flex;
+    background-color: black;
+    position:absolute;
+    top:-50px;
+    right:0px;
+    margin:0px 0px 35px 0px;
+}
+body main #content #heading #heading1 #heading1_button #replies_button p {
+    width:59px;
+    height:20px;
+    font-size: 16px;
+    color:white;
+}
+body main #content #heading #heading1 #heading1_button #replies_button span {
+    background-color: white;
+    width:25px;
+    height:20px;
+    padding:0px 8px;
+    font-size: 15px;
+}
+content #heading #heading1 #heading1_button hr {
+    position:absolute;
+    top: -50px;
+}
