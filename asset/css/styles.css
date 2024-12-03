@@ -9,7 +9,7 @@ html {
 /* CSS body */
 
 body {
-
+    
 }
 body main {
 
@@ -171,18 +171,23 @@ body main #content #heading #heading1 #heading1_paragrap2 {
 body main #content #heading #heading1 #heading1_button {
     width: 100%;
     margin: 35px 0px;
+    position:absolute;
+    top:2085x;
+    left:45px;
+    display:flex;
 }
 body main #content #heading #heading1 #heading1_button #like_button{
     width: 79px;
     height: 40px;
-    padding: 8px 16px;
+    /* padding: 8px 16px; */
     border: solid 0.8px black;
-    display:flex;
+    display:block;
     position:absolute;
     top:-50px;
-    margin:0px 0px 35px 0px;
+    margin:auto;
+    padding:8px 8px;
 }
-body main #content #heading #heading1 #heading1_button #like_button img {
+ body main #content #heading #heading1 #heading1_button #like_button img {
     width:15px;
     height:18px;
     display:block;
@@ -190,17 +195,21 @@ body main #content #heading #heading1 #heading1_button #like_button img {
 body main #content #heading #heading1 #heading1_button #like_button p {
     font-size: 18px;
     display:block;
+    position:absolute;
+    top:8px;
+    right:8px;
 }
 body main #content #heading #heading1 #heading1_button #replies_button {
     width:118px;
     height:39px;
-    padding:8px 16px;
-    display:flex;
+    padding:8px 8px;
+    display:block;
     background-color: black;
     position:absolute;
-    top:-50px;
-    right:0px;
-    margin:0px 0px 35px 0px;
+    top:-52px;
+    left:800px;
+    margin:auto;
+    color:white;
 }
 body main #content #heading #heading1 #heading1_button #replies_button p {
     width:59px;
@@ -210,15 +219,19 @@ body main #content #heading #heading1 #heading1_button #replies_button p {
 }
 body main #content #heading #heading1 #heading1_button #replies_button span {
     background-color: white;
+    color:black;
     width:25px;
     height:20px;
     padding:0px 8px;
     font-size: 15px;
-}
-body main content #heading #heading1 #heading1_button hr {
     position:absolute;
-    top: -50px;
+    top:8px;
+    right:9px;
 }
+/* body main content #heading #heading1 #heading1_button hr {
+    position:absolute;
+    top: 20px;
+} */
 body main content #heading #heading1 #heading1_comment {
     width:743px;
     height:141px;
@@ -230,7 +243,7 @@ body main content #heading #heading1 #heading1_comment img {
     height:100px;
 }
 body main content #heading #heading1 #heading1_comment div {
-    background-color: aquamarine;
+    background-color: red;
 }
 body main content #heading #heading1 #heading1_comment div h4 {
     width:620px;
@@ -249,11 +262,11 @@ body main content #heading #heading1 #heading1_comment div p {
 }
 /* End CSS heading1 */
 /* Start CSS heading2 */
-body main content #heading #heading2 {
+body main body #content #heading #heading2 {
     width: 961px;
     height:1182px;
     font-size: 15px;
     margin:16px;
     padding:12px 24px;
-    background-color:aquamarine;
-}
+    background-color:red;
+} */
