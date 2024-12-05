@@ -4,269 +4,60 @@
     box-sizing: border-box;
 }
 html {
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* CSS body */
 
 body {
     
 }
-body main {
-
+body header {
+    width: 100%;
+    /* nav + tittle + banner */
+    height: 1021px;
+    background-color: bisque;
 }
-/* Start CSS header */
-body main header {
 
-}
-body main header #navigation_bar {
-
-}
-body main header #navigation_bar ul {
+body header #navigation_bar{
     width: 100%;
     height: 39px;
-    padding: 8px 16px;
     background-color: black;
+}
+
+body header #tittle{
+    width: 100%;
+    height: 222px;
+    background-color: white;
+}
+
+body header #banner{
+    width: 100%;
+    height: 760px;
+    background-color: wheat;
+}
+/* Start CSS header */
+body main  {
+    width: 100%;
+    height: 2859px;
     display: flex;
-    vertical-align:middle;
-    position:relative;
-    list-style-type: none;
-}
-body main header #navigation_bar ul .search_icon {
-    background-color: black;
-    position: absolute;
-    right:20px;
-}
-body main header #navigation_bar ul li {
-    background-color: black;
-    width: 45px;
-    height: 23px;
-    /* float: left; */
-    text-align:center;
-    padding: 2px 0px;
-    position:relative;
-}
-body main header #navigation_bar ul li a{
-    background-color: black;
-    border-color:black;
-}
-body main header #navigation_bar ul li a img{
-    width: 17px;
-    height: 19px;
-    background-color: white;
+    padding: 8px 16px;
+    background-color: aqua
 }
 
+body main #left_contain{
+    width: 65%;
+    height: 2841px;
+    background-color: yellow;
+}
 
-body main header #tittle {
+body main #left_contain #title_contain{
     width: 100%;
-    height:222px;
-    background-color:white;
-    font-size: 15px;
-    font-family: "Open Sans";
-    padding: 48px 16px;
-    display:block;
+    height: 1105px;
+    background-color: blueviolet;
+}
 
-}
-body main header #tittle h1{
-    width: 100%;
-    height: 72px;
-    position:absolute;
-    left: 535px;
-    top: 120px;
-}
-body main header #tittle h1 b{
-    width: 259px;
-    height: 71px;
-    font-size: 48px;
-}
-body main header #tittle h6 {
-    width:100%;
-    height:24;
-    margin: 10px 0px;
-    font-size: 16px;
-    position:absolute;
-    left: 610px;
-    top: 175px;
-}
-body main header #tittle h6 span{
-    background-color: black;
-    color:white;
-}
-body main header img {
-    width: 100%;
-    height:832px;
-}
-body main header #header_img_text {
-    width:442px;
-    height:265px;
-    font-size:15px;
-    color:white;
-    padding:12px 24px;
-    display:block;
-    position:absolute;
-    top:550px;
-}
-body main header #header_img_text h1 {
-    width:100%;
-    height:54px;
-    font-size:36px;
-    margin:10px 0px;
-}
-body main header #header_img_text h2 {
-    width: 394px; 
-    height:94px;
-    font-size:50px;
-}
-body main header #header_img_text button{
-    width: 124px;
-    height:51px;
-    font-size: 13px;
-    padding: 12px 24px;
-    display:block;
-}
-/* End CSS header */
-/* Start CSS heading1 */
-body main #content #heading #heading1{
-    width: 961px;
-    height:1182px;
-    font-size: 15px;
-    margin:16px;
-    padding:12px 24px;
-    background-color: aqua;
-}
-body main #content #heading #heading1 h3{
-    width:100%;
-    height:36px;
-    font-size:24px;
-    margin:10px 0px;
-    text-align: center;
-}
-body main #content #heading #heading1 h5{
-    width:100%;
-    height:27px;
-    font-size:18px;
-    margin:10px 0px;
-    text-align: center;
-}
-body main #content #heading #heading1 h5 span{
-    color:rgba(63, 54, 44, 0.5);
-}
-body main #content #heading #heading1 #heading1_img1 {
-    width:100%;
-    height:621px;
-    padding:16px 0px;
-}
-body main #content #heading #heading1 #heading1_paragrap1 {
-    width:100%;
-    height:113px;
-    font-size:18px;
-    margin:15px 0px;
-}
-body main #content #heading #heading1 #heading1_paragrap2 {
-    width:100%;
-    height:68px;
-    font-size:18px;
-    margin:15px 0px;
-    position:relative;
-} 
-body main #content #heading #heading1 #heading1_button {
-    width: 100%;
-    margin: 35px 0px;
-    position:absolute;
-    top:2085x;
-    left:45px;
-    display:flex;
-}
-body main #content #heading #heading1 #heading1_button #like_button{
-    width: 79px;
-    height: 40px;
-    /* padding: 8px 16px; */
-    border: solid 0.8px black;
-    display:block;
-    position:absolute;
-    top:-50px;
-    margin:auto;
-    padding:8px 8px;
-}
- body main #content #heading #heading1 #heading1_button #like_button img {
-    width:15px;
-    height:18px;
-    display:block;
-}
-body main #content #heading #heading1 #heading1_button #like_button p {
-    font-size: 18px;
-    display:block;
-    position:absolute;
-    top:8px;
-    right:8px;
-}
-body main #content #heading #heading1 #heading1_button #replies_button {
-    width:118px;
-    height:39px;
-    padding:8px 8px;
-    display:block;
-    background-color: black;
-    position:absolute;
-    top:-52px;
-    left:800px;
-    margin:auto;
-    color:white;
-}
-body main #content #heading #heading1 #heading1_button #replies_button p {
-    width:59px;
-    height:20px;
-    font-size: 16px;
-    color:white;
-}
-body main #content #heading #heading1 #heading1_button #replies_button span {
-    background-color: white;
-    color:black;
-    width:25px;
-    height:20px;
-    padding:0px 8px;
-    font-size: 15px;
-    position:absolute;
-    top:8px;
-    right:9px;
-}
-/* body main content #heading #heading1 #heading1_button hr {
-    position:absolute;
-    top: 20px;
-} */
-body main content #heading #heading1 #heading1_comment {
-    width:743px;
-    height:141px;
-    font-size: 15px;
-    margin: 0px 0px 16px 0px;
-}
-body main content #heading #heading1 #heading1_comment img {
-    width:90px;
-    height:100px;
-}
-body main content #heading #heading1 #heading1_comment div {
-    background-color: red;
-}
-body main content #heading #heading1 #heading1_comment div h4 {
-    width:620px;
-    height:30px;
-    font-size: 20px;
-    margin:10px 0px;
-}
-body main content #heading #heading1 #heading1_comment div h4 span {
-    color:rgba(0, 0, 0, 0.3);
-}
-body main content #heading #heading1 #heading1_comment div p {
-    width:620px;
-    height:23px;
-    font-size: 15px;
-    margin:15px 0px;
-}
-/* End CSS heading1 */
-/* Start CSS heading2 */
-body main body #content #heading #heading2 {
-    width: 961px;
-    height:1182px;
-    font-size: 15px;
-    margin:16px;
-    padding:12px 24px;
+body main #right_contain{
+    width: 35%;
+    height: 2841px;
     background-color:red;
 }
