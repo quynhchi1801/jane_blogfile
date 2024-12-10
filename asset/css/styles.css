@@ -9,12 +9,12 @@ html {
 /* CSS body */
 
 body {
-    
+
 }
 body header {
     width: 100%;
     /* nav + tittle + banner */
-    height: 1021px;
+    height: 1321px;
     background-color: bisque;
 }
 
@@ -72,19 +72,18 @@ body header #tittle h1{
     width: 100%;
     height: 72px;
     margin: 10px 0;
-    text-align: center;
-}
-body header #tittle h1 b{
-    width: 259px;
-    height: 71px;
+    padding: 12px 0;
+    text-align: center; 
     font-size: 48px;
 }
+
 body header #tittle h6 {
     width:100%;
-    height:24;
+    height:24px;
     margin: 10px 0px;
     font-size: 16px;
     text-align: center;
+    padding: 4px 0;
 }
 body header #tittle h6 span{
     background-color: black;
@@ -93,8 +92,13 @@ body header #tittle h6 span{
 
 body header #banner{
     width: 100%;
-    height: 760px;
+    height: 1060px;
     background-color: wheat;
+}
+
+body header #banner img{
+    width: 100%;
+    height: 1060px;
 }
 /* Start CSS header */
 body main  {
@@ -121,4 +125,4 @@ body main #right_contain{
     width: 35%;
     height: 2841px;
     background-color:red;
-}
+} 
