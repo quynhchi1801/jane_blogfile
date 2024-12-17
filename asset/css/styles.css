@@ -145,15 +145,76 @@ body main #left_contain{
 }
 
 body main #left_contain #title_contain{
-    width: 100%;
+    width: 96%;
     height: 1105px;
     background-color: blueviolet;
+    margin:15px ;
+    text-align: center;
 }
 body main #left_contain #title_contain h3{
     width:100%;
     height:36px;
     font-size:24px;
     margin:10px 0px;
+}
+body main #left_contain #title_contain h5{
+    width:100%;
+    height:27px;
+    font-size:18px;
+    margin:10px 0px;
+}
+body main #left_contain #title_contain h5 span{
+    color:rgba(0,0,0,0.2)
+}
+body main #left_contain #title_contain img{
+    width:100%;
+    height:621px;
+    padding:16px 0px;
+}
+body main #left_contain #title_contain #tittlecontain_paragraph1 {
+    width:100%;
+    font-size: 15px;
+    margin:15px 0px;
+    text-align: justify;
+}
+body main #left_contain #title_contain #tittlecontain_paragraph1 span {
+    font-size: 15.5px;;
+}
+body main #left_contain #title_contain #tittlecontain_paragraph2 {
+    width:100%;
+    font-size: 15px;
+    margin:15px 0px;
+    text-align: justify;
+} 
+body main #left_contain #title_contain #tittlecontain_button {
+    width:100%;
+    height:80px;
+    margin:15px 0px;
+}
+body main #left_contain #title_contain #tittlecontain_button #button1 {
+    width:83px;
+    height:42px;
+    padding:8px 16px;
+    display:flex;
+    font-size: 16px;
+}
+body main #left_contain #title_contain #tittlecontain_button #button1 img{
+    width:14px;
+    height:15px;
+}
+body main #left_contain #title_contain #tittlecontain_button #button2 {
+    width:83px;
+    height:42px;
+    padding:4px 8px;
+    display:flex;
+    font-size: 16px;
+    background-color: black;
+    color:white;
+}
+body main #left_contain #title_contain #tittlecontain_button #button2 span {
+    width:25px;
+    background-color: white;
+    color:black;
 }
 
 body main #right_contain{
