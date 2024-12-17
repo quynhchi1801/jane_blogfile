@@ -188,19 +188,24 @@ body main #left_contain #title_contain #tittlecontain_paragraph2 {
 } 
 body main #left_contain #title_contain #tittlecontain_button {
     width:100%;
-    height:80px;
+    height:60px;
     margin:15px 0px;
+    display:flex;
+    position:relative;
 }
 body main #left_contain #title_contain #tittlecontain_button #button1 {
     width:83px;
     height:42px;
-    padding:8px 16px;
+    padding:4px 8px;
     display:flex;
     font-size: 16px;
+    position:absolute;
+    left:0px;
 }
 body main #left_contain #title_contain #tittlecontain_button #button1 img{
-    width:14px;
-    height:15px;
+    width:20px;
+    height:20px;
+    padding:0px 0px;
 }
 body main #left_contain #title_contain #tittlecontain_button #button2 {
     width:83px;
@@ -210,12 +215,25 @@ body main #left_contain #title_contain #tittlecontain_button #button2 {
     font-size: 16px;
     background-color: black;
     color:white;
+    position:absolute;
+    right:0px;
 }
 body main #left_contain #title_contain #tittlecontain_button #button2 span {
     width:25px;
     background-color: white;
     color:black;
 }
+body main #left_contain #title_contain #tittlecontain_comment {
+    width:100%;
+    height:141px;
+    margin:0px 0px 16px 0px;
+    display:flex;
+}
+body main #left_contain #title_contain #tittlecontain_comment img{
+    width:120px;
+    height:160px;
+}
+
 
 body main #right_contain{
     width: 35%;
