@@ -146,8 +146,9 @@ body main #left_contain{
 
 body main #left_contain #title_contain{
     width: 96%;
-    height: 1105px;
+    height: 1185px;
     background-color: blueviolet;
+    padding:12px 24px;
     margin:15px ;
     text-align: center;
 }
