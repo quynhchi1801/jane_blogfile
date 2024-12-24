@@ -11,6 +11,7 @@ html {
 body {
 
 }
+/* Start CSS header */
 body header {
     width: 100%;
     /* nav + tittle + banner */
@@ -129,22 +130,25 @@ body header #banner #header_img_text button{
     font-size: 13.5px;
     padding:12px 24px;
 }
-/* Start CSS header */
+/* End CSS header */
+
+/* Start CSS main */
 body main  {
     width: 100%;
-    height: 2859px;
+    height: 3240px;
     display: flex;
     padding: 8px 16px;
     background-color: aqua
 }
 
+/* Start CSS left_contain */
 body main #left_contain{
-    width: 65%;
-    height: 2841px;
+    width: 75%;
+    height: 3240px;
     background-color: yellow;
 }
-
-body main #left_contain #title_contain{
+/* Start CSS tittle_contain1 */
+body main #left_contain #title_contain1{
     width: 96%;
     height: 1185px;
     background-color: blueviolet;
@@ -152,49 +156,50 @@ body main #left_contain #title_contain{
     margin:15px ;
     text-align: center;
 }
-body main #left_contain #title_contain h3{
+body main #left_contain #title_contain1 h3{
     width:100%;
     height:36px;
     font-size:24px;
     margin:10px 0px;
 }
-body main #left_contain #title_contain h5{
+body main #left_contain #title_contain1 h5{
     width:100%;
     height:27px;
     font-size:18px;
     margin:10px 0px;
 }
-body main #left_contain #title_contain h5 span{
+body main #left_contain #title_contain1 h5 span{
     color:rgba(0,0,0,0.2)
 }
-body main #left_contain #title_contain img{
+body main #left_contain #title_contain1 img{
     width:100%;
     height:621px;
     padding:16px 0px;
 }
-body main #left_contain #title_contain #tittlecontain_paragraph1 {
+body main #left_contain #title_contain1 #tittlecontain1_paragraph1 {
     width:100%;
     font-size: 15px;
     margin:15px 0px;
     text-align: justify;
+    font-size: 17px;
 }
-body main #left_contain #title_contain #tittlecontain_paragraph1 span {
-    font-size: 15.5px;;
+body main #left_contain #title_contain1 #tittlecontain1_paragraph1 span {
+    font-weight: 400;
 }
-body main #left_contain #title_contain #tittlecontain_paragraph2 {
+body main #left_contain #title_contain1 #tittlecontain1_paragraph2 {
     width:100%;
-    font-size: 15px;
+    font-size: 17px;
     margin:15px 0px;
     text-align: justify;
 } 
-body main #left_contain #title_contain #tittlecontain_button {
+body main #left_contain #title_contain1 #tittlecontain1_button {
     width:100%;
-    height:60px;
+    height:42px;
     margin:15px 0px;
     display:flex;
     position:relative;
 }
-body main #left_contain #title_contain #tittlecontain_button #button1 {
+body main #left_contain #title_contain1 #tittlecontain1_button #button1 {
     width:83px;
     height:42px;
     padding:4px 8px;
@@ -203,12 +208,12 @@ body main #left_contain #title_contain #tittlecontain_button #button1 {
     position:absolute;
     left:0px;
 }
-body main #left_contain #title_contain #tittlecontain_button #button1 img{
+body main #left_contain #title_contain1 #tittlecontain1_button #button1 img{
     width:20px;
     height:20px;
     padding:0px 0px;
 }
-body main #left_contain #title_contain #tittlecontain_button #button2 {
+body main #left_contain #title_contain1 #tittlecontain1_button #button2 {
     width:83px;
     height:42px;
     padding:4px 8px;
@@ -219,25 +224,326 @@ body main #left_contain #title_contain #tittlecontain_button #button2 {
     position:absolute;
     right:0px;
 }
-body main #left_contain #title_contain #tittlecontain_button #button2 span {
+body main #left_contain #title_contain1 #tittlecontain1_button #button2 span {
     width:25px;
     background-color: white;
     color:black;
 }
-body main #left_contain #title_contain #tittlecontain_comment {
+body main #left_contain #title_contain1 #tittlecontain1_comment {
     width:100%;
     height:141px;
-    margin:0px 0px 16px 0px;
+    margin:30px 0px;
+}
+body main #left_contain #title_contain1 #tittlecontain1_comment hr{
+    width:100%;
+    margin:20px 0px;
+}
+body main #left_contain #title_contain1 #tittlecontain1_comment #comment{
+    width:100%;
+    height:130px;
     display:flex;
 }
-body main #left_contain #title_contain #tittlecontain_comment img{
+body main #left_contain #title_contain1 #tittlecontain1_comment #comment img{
     width:120px;
-    height:160px;
+    height:120px;
+    padding:0px 16px 0px 0px;
+    display:block;
 }
+body main #left_contain #title_contain1 #tittlecontain1_comment #comment #comment_paragraph{
+    width:85%;
+    height:120px;
+    background-color: aqua;
+}
+body main #left_contain #title_contain1 #tittlecontain1_comment #comment #comment_paragraph h4{
+    width:100%;
+    height:50%;
+    margin:10px 0px;
+    font-size: 22.5px;
+    background-color: red;
+    display:block;
+    text-align: left;
+    font-weight: 100;
+    padding:16px 0px;
+}
+body main #left_contain #title_contain1 #tittlecontain1_comment #comment #comment_paragraph p{
+    width:100%;
+    height:25%;
+    font-size: 18.5px;
+    background-color: pink;
+    text-align: left;
+    padding:6px 0px;
+}
+/* End CSS tittle_contain1 */
+
+/* Start tittle_contain2 */
+body main #left_contain #title_contain2{
+    width: 96%;
+    height: 1000px;
+    background-color: blueviolet;
+    padding:12px 24px;
+    margin:15px ;
+    text-align: center;
+}
+body main #left_contain #title_contain2 h3{
+    width:100%;
+    height:36px;
+    font-size:24px;
+    margin:10px 0px;
+}
+body main #left_contain #title_contain2 h5{
+    width:100%;
+    height:27px;
+    font-size:18px;
+    margin:10px 0px;
+}
+body main #left_contain #title_contain2 h5 span{
+    color:rgba(0,0,0,0.2)
+}
+body main #left_contain #title_contain2 img{
+    width:100%;
+    height:621px;
+    padding:16px 0px;
+}
+body main #left_contain #title_contain2 #tittlecontain2_paragraph1 {
+    width:100%;
+    font-size: 15px;
+    margin:15px 0px;
+    text-align: justify;
+    font-size: 17px;
+}
+body main #left_contain #title_contain2 #tittlecontain2_paragraph1 span {
+    font-weight: 400;
+}
+body main #left_contain #title_contain2 #tittlecontain2_paragraph2 {
+    width:100%;
+    font-size: 17px;
+    margin:15px 0px;
+    text-align: justify;
+} 
+body main #left_contain #title_contain2 #tittlecontain2_button {
+    width:100%;
+    height:42px;
+    margin:15px 0px;
+    display:flex;
+    position:relative;
+}
+body main #left_contain #title_contain2 #tittlecontain2_button #button1 {
+    width:83px;
+    height:42px;
+    padding:4px 8px;
+    display:flex;
+    font-size: 16px;
+    position:absolute;
+    left:0px;
+}
+body main #left_contain #title_contain2 #tittlecontain2_button #button1 img{
+    width:20px;
+    height:20px;
+    padding:0px 0px;
+}
+body main #left_contain #title_contain2 #tittlecontain2_button #button2 {
+    width:83px;
+    height:42px;
+    padding:4px 8px;
+    display:flex;
+    font-size: 16px;
+    background-color: black;
+    color:white;
+    position:absolute;
+    right:0px;
+}
+body main #left_contain #title_contain2 #tittlecontain2_button #button2 span {
+    width:25px;
+    background-color: white;
+    color:black;
+}
+/* End tittle_contain2 */
+
+/* Start tittle_contain3 */
+body main #left_contain #title_contain3{
+    width: 96%;
+    height: 1000px;
+    background-color: blueviolet;
+    padding:12px 24px;
+    margin:15px ;
+    text-align: center;
+}
+body main #left_contain #title_contain3 h3{
+    width:100%;
+    height:36px;
+    font-size:24px;
+    margin:10px 0px;
+}
+body main #left_contain #title_contain3 h5{
+    width:100%;
+    height:27px;
+    font-size:18px;
+    margin:10px 0px;
+}
+body main #left_contain #title_contain3 h5 span{
+    color:rgba(0,0,0,0.2)
+}
+body main #left_contain #title_contain3 img{
+    width:100%;
+    height:621px;
+    padding:16px 0px;
+}
+body main #left_contain #title_contain3 #tittlecontain3_paragraph1 {
+    width:100%;
+    font-size: 15px;
+    margin:15px 0px;
+    text-align: justify;
+    font-size: 17px;
+}
+body main #left_contain #title_contain3 #tittlecontain3_paragraph1 span {
+    font-weight: 400;
+}
+body main #left_contain #title_contain3 #tittlecontain3_paragraph2 {
+    width:100%;
+    font-size: 17px;
+    margin:15px 0px;
+    text-align: justify;
+} 
+body main #left_contain #title_contain3 #tittlecontain3_button {
+    width:100%;
+    height:42px;
+    margin:15px 0px;
+    display:flex;
+    position:relative;
+}
+body main #left_contain #title_contain3 #tittlecontain3_button #button1 {
+    width:83px;
+    height:42px;
+    padding:4px 8px;
+    display:flex;
+    font-size: 16px;
+    position:absolute;
+    left:0px;
+}
+body main #left_contain #title_contain3 #tittlecontain3_button #button1 img{
+    width:20px;
+    height:20px;
+    padding:0px 0px;
+}
+body main #left_contain #title_contain3 #tittlecontain3_button #button2 {
+    width:83px;
+    height:42px;
+    padding:4px 8px;
+    display:flex;
+    font-size: 16px;
+    background-color: black;
+    color:white;
+    position:absolute;
+    right:0px;
+}
+body main #left_contain #title_contain3 #tittlecontain3_button #button2 span {
+    width:25px;
+    background-color: white;
+    color:black;
+}
+/* End tittle_contain3 */
+/* End CSS left_contain */
 
 
 body main #right_contain{
     width: 35%;
     height: 2841px;
     background-color:red;
+    padding:20px;
+    position:relative;
+    display:block
 } 
+body main #right_contain #first_comment{
+    width:100%;
+    height:363px;
+}
+body main #right_contain #first_comment #rightcontain_img1 {
+    width:100%;
+    height:275px;
+} 
+body main #right_contain #first_comment #img1_paragraph{
+    width:91.1%;
+    background-color: black;
+    padding: 0px 16px;
+    position:absolute;
+    top:295px;
+    left:20px;
+    margin:0px 0px 20px 0px;
+}
+body main #right_contain #first_comment #img1_paragraph #h4_1{
+    width:100%;
+    text-align: left;
+    font-size: 20px;
+    margin:10px 0px;
+    background-color: yellow;
+}
+body main #right_contain #first_comment #img1_paragraph #p_1{
+    width:100%;
+    text-align: left;
+    font-size: 15px;
+    margin:15px 0px;
+    background-color: aqua;
+}
+body main #right_contain #second_comment{
+    width:100%;
+    height:493px;
+    background-color: darkorange;
+    margin:70px 0px;
+}
+body main #right_contain #second_comment #h4_2_div{
+    width:100%;
+    height:60px;
+    padding:8px 16px;
+    background-color:black;
+    color:white;
+}
+body main #right_contain #second_comment #h4_2_div #h4_2{
+    width:100%;
+    height:50px;
+    margin:10px 0px;
+    font-size: 20px;
+}
+body main #right_contain #second_comment ul{
+    width:100%;
+    height:433px;
+}
+body main #right_contain #second_comment ul li{
+    width:100%;
+    height:25%;
+    border: 0.5px solid gray;
+    padding:16px;
+    list-style-type: none;
+    display:flex;
+}
+body main #right_contain #second_comment ul li img{
+    width:110px;
+    height:76px;
+    margin:0px 16px 0px 0px;
+}
+body main #right_contain #second_comment ul li .img_div{
+    width:75%;
+    height:100%;
+}
+body main #right_contain #second_comment ul li .span_1{
+    font-size: 20px;
+    display:block;
+    margin:10px 0px;
+}
+body main #right_contain #second_comment ul li .span_2{
+    font-size: 17px;
+    display:block;
+    margin:10px 0px;
+}
+body main #right_contain #third_comment #h4_3_div{
+    width:100%;
+    height:60px;
+    padding:8px 16px;
+    background-color:black;
+    color:white;
+}
+body main #right_contain #third_comment #h4_3_div #h4_3{
+    width:100%;
+    height:50px;
+    margin:10px 0px;
+    font-size: 20px;
+}
