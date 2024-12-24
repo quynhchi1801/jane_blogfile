@@ -558,17 +558,15 @@ body main #right_contain #third_comment #ad_div{
 }
 body main #right_contain #third_comment #ad_div #ad_text{
     width:100%;
-    height:100%;
-    margin:auto;
-    background-color: rgba(0, 0, 0, 0.2);
-    padding:0.5px 16px;
-    text-align: center;
-    display:flex;
+    height:208px;
+    margin: 16px 0px;
+    padding: 0px 16px;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: rgba(15, 19, 238, 0.2);
 }
 body main #right_contain #third_comment #ad_div #ad_text span{
-    width:100%;
-    height:100%;
+    height: 21px;
     font-size: 17px;
-    margin:auto;
 }
