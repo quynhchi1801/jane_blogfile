@@ -451,7 +451,6 @@ body main #right_contain{
     background-color:red;
     padding:20px;
     position:relative;
-    display:block
 } 
 body main #right_contain #first_comment{
     width:100%;
@@ -534,6 +533,11 @@ body main #right_contain #second_comment ul li .span_2{
     display:block;
     margin:10px 0px;
 }
+body main #right_contain #third_comment{
+    width:100%;
+    height:300px;
+    background-color: yellow;
+}
 body main #right_contain #third_comment #h4_3_div{
     width:100%;
     height:60px;
@@ -543,7 +547,28 @@ body main #right_contain #third_comment #h4_3_div{
 }
 body main #right_contain #third_comment #h4_3_div #h4_3{
     width:100%;
-    height:50px;
+    height:30px;
     margin:10px 0px;
     font-size: 20px;
+}
+body main #right_contain #third_comment #ad_div{
+    width:100%;
+    height:240px;
+    padding:0.5px 16px;
+}
+body main #right_contain #third_comment #ad_div #ad_text{
+    width:100%;
+    height:100%;
+    margin:auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding:0.5px 16px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+}
+body main #right_contain #third_comment #ad_div #ad_text span{
+    width:100%;
+    height:100%;
+    font-size: 17px;
+    margin:auto;
 }
