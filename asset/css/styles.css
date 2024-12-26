@@ -492,7 +492,7 @@ body main #right_contain #second_comment{
     height:493px;
     background-color:white;
     margin:70px 0px;
-    border:2px solid #EEEEEE;
+    border:0.5px solid #EEEEEE;
 }
 body main #right_contain #second_comment #h4_2_div{
     width:100%;
@@ -514,10 +514,13 @@ body main #right_contain #second_comment ul{
 body main #right_contain #second_comment ul li{
     width:100%;
     height:25%;
-    border: 0.5px solid gray;
+    border: 0.005px solid #EEEEEE;
     padding:16px;
     list-style-type: none;
     display:flex;
+}
+body main #right_contain #second_comment ul li:hover{
+    background-color: #EEEEEE;
 }
 body main #right_contain #second_comment ul li img{
     width:110px;
