@@ -143,7 +143,7 @@ body main  {
 /* Start CSS left_contain */
 body main #left_contain{
     width: 75%;
-    height:3248px;
+    height:3264px;
     background-color: white;
     margin: 0px 5px;
 }
@@ -362,7 +362,7 @@ body main #left_contain #title_contain2 #tittlecontain2_button #button2 span {
 /* Start tittle_contain3 */
 body main #left_contain #title_contain3{
     width: 96%;
-    height: 1000px;
+    height: 994px;
     background-color: white;
     padding:12px 24px;
     margin:15px ;
