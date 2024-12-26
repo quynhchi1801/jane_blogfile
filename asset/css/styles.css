@@ -9,14 +9,13 @@ html {
 /* CSS body */
 
 body {
-
 }
 /* Start CSS header */
 body header {
     width: 100%;
     /* nav + tittle + banner */
     height: 1321px;
-    background-color: bisque;
+    background-color: white;
 }
 
 body header #navigation_bar{
@@ -94,7 +93,7 @@ body header #tittle h6 span{
 body header #banner{
     width: 100%;
     height: 1060px;
-    background-color: wheat;
+    background-color: white;
     position: relative;
 }
 
@@ -135,23 +134,24 @@ body header #banner #header_img_text button{
 /* Start CSS main */
 body main  {
     width: 100%;
-    height: 3240px;
+    height: 3270px;
     display: flex;
     padding: 8px 16px;
-    background-color: aqua
+    background-color: #EEEEEE;
 }
 
 /* Start CSS left_contain */
 body main #left_contain{
     width: 75%;
-    height: 3240px;
-    background-color: yellow;
+    height:3248px;
+    background-color: white;
+    margin: 0px 5px;
 }
 /* Start CSS tittle_contain1 */
 body main #left_contain #title_contain1{
     width: 96%;
     height: 1185px;
-    background-color: blueviolet;
+    background-color: white;
     padding:12px 24px;
     margin:15px ;
     text-align: center;
@@ -252,14 +252,14 @@ body main #left_contain #title_contain1 #tittlecontain1_comment #comment img{
 body main #left_contain #title_contain1 #tittlecontain1_comment #comment #comment_paragraph{
     width:85%;
     height:120px;
-    background-color: aqua;
+    background-color: white;
 }
 body main #left_contain #title_contain1 #tittlecontain1_comment #comment #comment_paragraph h4{
     width:100%;
     height:50%;
     margin:10px 0px;
     font-size: 22.5px;
-    background-color: red;
+    background-color: white;
     display:block;
     text-align: left;
     font-weight: 100;
@@ -269,7 +269,7 @@ body main #left_contain #title_contain1 #tittlecontain1_comment #comment #commen
     width:100%;
     height:25%;
     font-size: 18.5px;
-    background-color: pink;
+    background-color: white;
     text-align: left;
     padding:6px 0px;
 }
@@ -279,7 +279,7 @@ body main #left_contain #title_contain1 #tittlecontain1_comment #comment #commen
 body main #left_contain #title_contain2{
     width: 96%;
     height: 1000px;
-    background-color: blueviolet;
+    background-color: white;
     padding:12px 24px;
     margin:15px ;
     text-align: center;
@@ -363,7 +363,7 @@ body main #left_contain #title_contain2 #tittlecontain2_button #button2 span {
 body main #left_contain #title_contain3{
     width: 96%;
     height: 1000px;
-    background-color: blueviolet;
+    background-color: white;
     padding:12px 24px;
     margin:15px ;
     text-align: center;
@@ -444,14 +444,15 @@ body main #left_contain #title_contain3 #tittlecontain3_button #button2 span {
 /* End tittle_contain3 */
 /* End CSS left_contain */
 
-
+/* Start CSS right_contain */
 body main #right_contain{
     width: 35%;
     height: 2841px;
-    background-color:red;
+    background-color:white;
     padding:20px;
     position:relative;
 } 
+/* Start CSS first_comment */
 body main #right_contain #first_comment{
     width:100%;
     height:363px;
@@ -474,20 +475,24 @@ body main #right_contain #first_comment #img1_paragraph #h4_1{
     text-align: left;
     font-size: 20px;
     margin:10px 0px;
-    background-color: yellow;
+    background-color: white;
 }
 body main #right_contain #first_comment #img1_paragraph #p_1{
     width:100%;
     text-align: left;
     font-size: 15px;
     margin:15px 0px;
-    background-color: aqua;
+    background-color: white;
 }
+/* End CSS first_comment */
+
+/* Start CSS second_comment */
 body main #right_contain #second_comment{
     width:100%;
     height:493px;
-    background-color: darkorange;
+    background-color: aqua;
     margin:70px 0px;
+    border:2px solid #EEEEEE;
 }
 body main #right_contain #second_comment #h4_2_div{
     width:100%;
@@ -533,10 +538,14 @@ body main #right_contain #second_comment ul li .span_2{
     display:block;
     margin:10px 0px;
 }
+/* End CSS second_comment */
+
+/* Start CSS thrid_comment */
 body main #right_contain #third_comment{
     width:100%;
     height:300px;
-    background-color: yellow;
+    background-color: white;
+    border:2px solid #EEEEEE;
 }
 body main #right_contain #third_comment #h4_3_div{
     width:100%;
@@ -564,9 +573,215 @@ body main #right_contain #third_comment #ad_div #ad_text{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(15, 19, 238, 0.2);
+    background-color: #EEEEEE;
 }
 body main #right_contain #third_comment #ad_div #ad_text span{
     height: 21px;
     font-size: 17px;
+}
+/* End CSS thrid_comment */
+
+/* Start CSS fourth_comment */
+body main #right_contain #fourth_comment{
+    width:100%;
+    height:255px;
+    background-color:white ;
+    margin:70px 0px;
+    border:2px solid #EEEEEE;
+}
+body main #right_contain #fourth_comment #h4_4_div{
+    width:100%;
+    height:60px;
+    padding:8px 16px;
+    background-color:black;
+    color:white;
+}
+body main #right_contain #fourth_comment #h4_4_div #h4_4{
+    width:100%;
+    height:30px;
+    margin:10px 0px;
+    font-size: 20px;
+}
+body main #right_contain #fourth_comment #tags_buttons{
+    width:100%;
+    height:190px;
+    padding:0.5px 16px;
+}
+body main #right_contain #fourth_comment #tags_buttons p{
+    width:100%;
+    height:189px;
+    padding:15px 0px;
+    background-color: white;
+}
+body main #right_contain #fourth_comment #tags_buttons p span{
+    width:75px;
+    height:25px;
+    margin:0px 0px 16px 0px;
+    padding:0px 8px;
+    background-color: white;
+}
+body main #right_contain #fourth_comment #tags_buttons p span #special_button{
+    color:white;
+    background-color: black;
+}
+/* End CSS fourth_comment */
+
+/* Start CSS fifth_comment */
+body main #right_contain #fifth_comment{
+    width:100%;
+    height:450px;
+    background-color: white;
+    margin:70px 0px;
+    border:2px solid #EEEEEE;
+}
+body main #right_contain #fifth_comment #h4_5_div{
+    width:100%;
+    height:60px;
+    padding:8px 16px;
+    background-color:black;
+    color:white;
+}
+body main #right_contain #fifth_comment #h4_5_div #h4_5{
+    width:100%;
+    height:30px;
+    margin:10px 0px;
+    font-size: 20px;
+}
+body main #right_contain #fifth_comment #pictures_boxes{
+    width:100%;
+    height:380px;
+    background-color: white;
+    padding:0px 8px;
+    display:flex;
+}
+body main #right_contain #fifth_comment #pictures_boxes .pictures{
+    width:50%;
+    height:100%;
+    padding:0px 8px;
+    display:block;
+}
+body main #right_contain #fifth_comment #pictures_boxes .pictures img{
+    display:block;
+    width:195px;
+    height:145px;
+    margin:32.5px 0px;
+}
+body main #right_contain #sixth_comment{
+    width:100%;
+    height:110px;
+    background-color:white;
+}
+/* End CSS fifth_comment */
+
+/* Start CSS sixth_comment */
+body main #right_contain #sixth_comment{
+    width:100%;
+    height:120px;
+    border:2px solid #EEEEEE;
+}
+body main #right_contain #sixth_comment #h4_6_div{
+    width:100%;
+    height:60px;
+    padding:8px 16px;
+    background-color:black;
+    color:white;
+}
+body main #right_contain #sixth_comment #h4_6_div #h4_6{
+    width:100%;
+    height:30px;
+    margin:10px 0px;
+    font-size: 20px;
+}
+body main #right_contain #sixth_comment #socialmedia_box{
+    width:100%;
+    height:50px;
+    background-color: white;
+    padding:8px 16px;
+}
+body main #right_contain #sixth_comment #socialmedia_box img{
+    width:23px;
+    height:26px;
+}
+/* End CSS sixth_comment */
+
+/* Start CSS seventh_comment */
+body main #right_contain #seventh_comment{
+    width:100%;
+    height:300px;
+    background-color: white;
+    margin:70px 0px;
+    border:2px solid #EEEEEE;
+}
+body main #right_contain #seventh_comment #h4_7_div{
+    width:100%;
+    height:60px;
+    padding:8px 16px;
+    background-color:black;
+    color:white;
+}
+body main #right_contain #seventh_comment #h4_7_div #h4_7{
+    width:100%;
+    height:30px;
+    margin:10px 0px;
+    font-size: 20px;
+}
+body main #right_contain #seventh_comment #infor_box{
+    width:100%;
+    height:240px;
+    padding:0.5px 16px;
+}
+body main #right_contain #seventh_comment #infor_box p{
+    width:100%;
+    color:black;
+    font-size:18px;
+    margin:15px 0px;
+}
+body main #right_contain #seventh_comment #infor_box input{
+    width:100%;
+    height:60px;
+    padding:8px;
+    margin: 10px 0px;
+}
+body main #right_contain #seventh_comment #infor_box button{
+    width:100%;
+    height:55px;
+    font-size:18px;
+    padding:8px 16px;
+    background-color: black;
+    color:white;
+    margin: 10px 0px;
+}
+/* End CSS seventh_comment */
+/* End CSS main */
+
+/* Start CSS footer */
+body footer{
+    width:100%;
+    height:200px;
+    background-color: grey;
+    padding:32px;
+}
+body footer a{
+    width:155px;
+    height:50px;
+    background-color: black;
+    margin:40px 0px;
+    padding:12px 24px;
+    font-size:17px;
+    color:white;
+    text-decoration: none;
+}
+body footer #a_1 img{
+    width:20px;
+    height:20px;
+}
+body footer p{
+    width:100%;
+    height:25px;
+    margin:28px 0px;
+    font-size:17px;
+    color:white;
+}
+body footer p a{
+    background-color: rgba(0,0,0,0);
 }
