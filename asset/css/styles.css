@@ -619,13 +619,14 @@ body main #right_contain #fourth_comment #tags_buttons p{
     background-color: white;
 }
 body main #right_contain #fourth_comment #tags_buttons p span{
-    width:75px;
     height:25px;
     margin:0px 0px 16px 0px;
     padding:0px 8px;
-    background-color: white;
+    background-color: #EEEEEE;
+    font-size: 17px;
+    display:inline-block;
 }
-body main #right_contain #fourth_comment #tags_buttons p span #special_button{
+body main #right_contain #fourth_comment #tags_buttons p #special_button{
     color:white;
     background-color: black;
 }
