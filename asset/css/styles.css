@@ -621,7 +621,7 @@ body main #right_contain #fourth_comment #tags_buttons p{
 body main #right_contain #fourth_comment #tags_buttons p span{
     height:25px;
     margin:0px 0px 16px 0px;
-    padding:0px 8px;
+    padding:2px 8px;
     background-color: #EEEEEE;
     font-size: 17px;
     display:inline-block;
@@ -713,7 +713,7 @@ body main #right_contain #sixth_comment #socialmedia_box img{
 /* Start CSS seventh_comment */
 body main #right_contain #seventh_comment{
     width:100%;
-    height:300px;
+    height:250px;
     background-color: white;
     margin:70px 0px;
     border:2px solid #EEEEEE;
@@ -744,18 +744,22 @@ body main #right_contain #seventh_comment #infor_box p{
 }
 body main #right_contain #seventh_comment #infor_box input{
     width:100%;
-    height:60px;
+    height:40px;
     padding:8px;
-    margin: 10px 0px;
+    margin: 5px 0px;
 }
 body main #right_contain #seventh_comment #infor_box button{
     width:100%;
-    height:55px;
+    height:40px;
     font-size:18px;
     padding:8px 16px;
-    background-color: black;
+    background-color: red;
     color:white;
-    margin: 10px 0px;
+    margin: 5px 0px;
+}
+body main #right_contain #seventh_comment #infor_box button:hover{
+    background-color: #EEEEEE;
+    color:black
 }
 /* End CSS seventh_comment */
 /* End CSS main */
