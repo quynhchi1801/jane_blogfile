@@ -462,7 +462,7 @@ body main #right_contain #first_comment #rightcontain_img1 {
     height:275px;
 } 
 body main #right_contain #first_comment #img1_paragraph{
-    width:91.1%;
+    width:91.75%;
     background-color: black;
     padding: 0px 16px;
     position:absolute;
@@ -475,14 +475,16 @@ body main #right_contain #first_comment #img1_paragraph #h4_1{
     text-align: left;
     font-size: 20px;
     margin:10px 0px;
-    background-color: white;
+    background-color: black;
+    color:white;
 }
 body main #right_contain #first_comment #img1_paragraph #p_1{
     width:100%;
     text-align: left;
     font-size: 15px;
     margin:15px 0px;
-    background-color: white;
+    background-color: black;
+    color:white;
 }
 /* End CSS first_comment */
 
