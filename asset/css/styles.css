@@ -203,8 +203,6 @@ body main #left_contain #title_contain1 #tittlecontain1_button #button1 {
     width:83px;
     height:42px;
     padding:4px 8px;
-    display:flex;
-    font-size: 16px;
     position:absolute;
     left:0px;
 }
@@ -214,15 +212,14 @@ body main #left_contain #title_contain1 #tittlecontain1_button #button1 img{
     padding:0px 0px;
 }
 body main #left_contain #title_contain1 #tittlecontain1_button #button2 {
-    width:83px;
+    width:119px;
     height:42px;
     padding:4px 8px;
-    display:flex;
-    font-size: 16px;
     background-color: black;
     color:white;
     position:absolute;
     right:0px;
+    display:flex;
 }
 body main #left_contain #title_contain1 #tittlecontain1_button #button2 span {
     width:25px;
